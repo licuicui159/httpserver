@@ -1,0 +1,35 @@
+
+cookie
+
+json ： 数据格式 "{'xxx':'abc'}"  "[1,2,3,4]"
+
+import json
+
+json.dumps(dict/list)  将字典或者列表转换为json格式
+
+json.loads(json)  将json数据解析为Python类型
+
+
+cookie
+
+让程序后台运行
+
+  1. 程序第一行加解释器路径
+     #! /usr/bin/env python3
+
+  2. 设置程序的可执行权限
+     chmod 774 httpserer.py
+
+  3. 执行的时候后面加 &
+     ./httpserver.py  &
+
+  4. 如果想让程序在任意目录下都可以执行可以添加到/usr/bin下
+
+     cd /usr/bin
+     sudo  ln -s /home/tarena/.../httpserver.py  http
+
+
+
+
+
+
